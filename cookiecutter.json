@@ -1,0 +1,9 @@
+{
+    "project_name": "PDM Project",
+    "pip_slug": "{{ cookiecutter.project_name.lower().replace(' ', '-') }}",
+    "git_slug": "py-{{ cookiecutter.pip_slug }}",
+    "module_name": "{{ cookiecutter.pip_slug.replace('-', '_') }}",
+    "project_short_desc": "Default template for PDM package",
+    "author_name": "Anonymous",
+    "author_mail": "example@example.com"
+  }
